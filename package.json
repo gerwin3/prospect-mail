@@ -59,10 +59,10 @@
       "category": "Mail;Network;Office",
       "packageCategory": "net",
       "executableName": "prospect-mail",
-      "synopsis": "Prospect Mail",
+      "synopsis": "Outlook Mail",
       "icon": "build/icons/512x512.png",
       "desktop": {
-        "Name": "Prospect Mail",
+        "Name": "Outlook Mail",
         "Comment": "Unofficial desktop client for Microsoft Outlook",
         "StartupWMClass": "prospect-mail"
       },
