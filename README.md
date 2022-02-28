@@ -59,15 +59,13 @@ For other distributions please follow your specific steps.
 
 * Receive your Outlook Microsoft 365 online from the desktop app
 * Close to minimize
-* Start as minimized (you can use the Option in the Tray icon menu or start app with `prospect-mail --minimized`)
-* Dock tray support
+* Start as minimized
 * System notification
 * Connect to standard or custom outlook url
 
 ## Settings
 
-* Via tray menu settings.json can be opened and edited. After every save you
-need to click in "Reload settings" to apply changes.
+Example `settings.json`:
 
 ```json
 {

@@ -1,6 +1,5 @@
 const { app } = require('electron')
 const MailWindowController = require('./controller/mail-window-controller')
-const TrayController = require('./controller/tray-controller')
 
 //Store commandline for global purpose
 global.cmdLine = process.argv;
@@ -8,7 +7,6 @@ global.cmdLine = process.argv;
 class ProspectMail {
   constructor() {
     this.mailController = null;
-    this.trayController = null;
   }
 
   // init method, the entry point of the app
@@ -55,7 +53,6 @@ class ProspectMail {
 
   createControllers() {
     this.mailController = new MailWindowController()
-    this.trayController = new TrayController(this.mailController)
   }
 }
 
